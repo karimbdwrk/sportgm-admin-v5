@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_sections_quotes",
+  "info": {
+    "displayName": "quote",
+    "icon": "quote-left"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}

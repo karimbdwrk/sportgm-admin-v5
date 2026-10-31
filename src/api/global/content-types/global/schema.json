@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "globals",
+  "info": {
+    "singularName": "global",
+    "pluralName": "globals",
+    "displayName": "Global"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Mentions_legales": {
+      "type": "richtext"
+    },
+    "Conception_referencement": {
+      "type": "richtext"
+    },
+    "Social_network": {
+      "type": "component",
+      "component": "components.social-network",
+      "repeatable": true
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "collectionName": "components_sections_section_as",
+  "info": {
+    "displayName": "Fifa_Section",
+    "icon": "align-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Reassurance": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.reassurance-element"
+    },
+    "quote": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.quote"
+    },
+    "Fifa_match_agent": {
+      "type": "richtext"
+    },
+    "Media_rights": {
+      "type": "richtext"
+    }
+  }
+}

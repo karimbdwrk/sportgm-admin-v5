@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_sections_meta_informations",
+  "info": {
+    "displayName": "Meta_informations",
+    "icon": "golf-ball",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "meta_title": {
+      "type": "string"
+    },
+    "meta_description": {
+      "type": "text"
+    },
+    "robot_index": {
+      "type": "boolean",
+      "default": true
+    },
+    "robot_follow": {
+      "type": "boolean",
+      "default": true,
+      "required": false
+    }
+  }
+}

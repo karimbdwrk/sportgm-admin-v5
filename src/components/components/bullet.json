@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_components_bullets",
+  "info": {
+    "displayName": "Bullet",
+    "icon": "bullseye"
+  },
+  "options": {},
+  "attributes": {
+    "value": {
+      "type": "integer"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}
